@@ -1,0 +1,52 @@
+body {
+    background-color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.common {
+    position: absolute;
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 4;
+    border-bottom: solid 3px #555555;
+}
+.leftmenu {
+    top: 114px;
+    left: 5px;
+    width: 110px;
+    bottom: 39px;
+    height: fit-content;
+    border-right: solid 1px #555555;
+}
+.mainmenu {
+    top: 114px;
+    right: 114px;
+    left: 114px;
+    bottom: 39px;
+    padding-right: 5px;
+    text-align: center;
+}
+
+.footer {
+    bottom: 5px;
+    height: 25px;
+    left: 5px;
+    right: 5px;
+    font-size: 8px;
+    color: #999999;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+}
+.subheader {
+    float: right;
+    font-size: 14px;
+}
+.mainpagecenter {
+    text-align: center;
+}
